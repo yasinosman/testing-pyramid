@@ -3,7 +3,7 @@ import React from "react";
 /**
  *
  * @param {Object} props
- * @param {(value: String) => void} onSubmit - Callback function to be called when the new todo is submitted
+ * @param {(value: String) => void} props.onSubmit - Callback function to be called when the new todo is submitted
  * @returns
  */
 const TodoInput = ({ onSubmit }) => {
