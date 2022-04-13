@@ -1,6 +1,7 @@
 import React from "react";
 // eslint-disable-next-line no-unused-vars
 import TodoModel from "./TodoModel";
+import "./todo.css";
 
 /**
  * @param {Object} props
@@ -14,7 +15,7 @@ const Todo = ({ todo, onClick }) => {
 
 	return (
 		<div onClick={handleClick}>
-			<span>{todo.text}</span>
+			<span className={todo.completed ? "todo-text--completed" : "todo-text"}>{todo.text}</span>
 		</div>
 	);
 };

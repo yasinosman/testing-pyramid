@@ -1,0 +1,15 @@
+.todo-text {
+	text-decoration: none;
+}
+
+.todo-text:hover {
+	cursor: pointer;
+}
+
+.todo-text--completed {
+	text-decoration: line-through;
+}
+
+.todo-text--completed:hover {
+	cursor: pointer;
+}
